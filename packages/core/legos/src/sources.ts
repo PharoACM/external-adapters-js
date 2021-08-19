@@ -31,6 +31,7 @@ import * as cryptocompare from '@chainlink/cryptocompare-adapter'
 import * as cryptoid from '@chainlink/cryptoid-adapter'
 import * as cryptomkt from '@chainlink/cryptomkt-adapter'
 import * as currencylayer from '@chainlink/currencylayer-adapter'
+import * as curve from '@chainlink/curve-adapter'
 import * as deribit from '@chainlink/deribit-adapter'
 import * as dns_query from '@chainlink/dns-query-adapter'
 import * as dwolla from '@chainlink/dwolla-adapter'
@@ -53,6 +54,7 @@ import * as iex_adapter from '@chainlink/iex-cloud-adapter'
 import * as intrinio from '@chainlink/intrinio-adapter'
 import * as json_adapter from '@chainlink/json-rpc-adapter'
 import * as kaiko from '@chainlink/kaiko-adapter'
+import * as layer2_sequencer_health from '@chainlink/layer2-sequencer-health-adapter'
 import * as lcx from '@chainlink/lcx-adapter'
 import * as linkpool from '@chainlink/linkpool-adapter'
 import * as lition from '@chainlink/lition-adapter'
@@ -123,6 +125,7 @@ export default {
   cryptoid,
   cryptomkt,
   currencylayer,
+  curve,
   deribit,
   dns_query,
   dwolla,
@@ -145,6 +148,7 @@ export default {
   intrinio,
   json_adapter,
   kaiko,
+  layer2_sequencer_health,
   lcx,
   linkpool,
   lition,

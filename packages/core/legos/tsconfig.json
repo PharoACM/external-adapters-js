@@ -110,6 +110,9 @@
       "path": "../../sources/currencylayer"
     },
     {
+      "path": "../../sources/curve"
+    },
+    {
       "path": "../../sources/deribit"
     },
     {
@@ -174,6 +177,9 @@
     },
     {
       "path": "../../sources/kaiko"
+    },
+    {
+      "path": "../../sources/layer2-sequencer-health"
     },
     {
       "path": "../../sources/lcx"
